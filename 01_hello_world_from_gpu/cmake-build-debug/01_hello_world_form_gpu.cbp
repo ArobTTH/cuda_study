@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="01_hello_world_form_gpu"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="F:/CudaCodeRepo/cuda_study/01_hello_world_from_gpu/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f F:\CudaCodeRepo\cuda_study\01_hello_world_from_gpu\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f F:\CudaCodeRepo\cuda_study\01_hello_world_from_gpu\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\CudaCodeRepo\cuda_study\01_hello_world_from_gpu\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\CudaCodeRepo\cuda_study\01_hello_world_from_gpu\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="01_hello_world_form_gpu">
+				<Option output="F:/CudaCodeRepo/cuda_study/01_hello_world_from_gpu/cmake-build-debug/01_hello_world_form_gpu.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CudaCodeRepo/cuda_study/01_hello_world_from_gpu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f F:\CudaCodeRepo\cuda_study\01_hello_world_from_gpu\cmake-build-debug\Makefile VERBOSE=1 01_hello_world_form_gpu"/>
+					<CompileFile command="nmake /NOLOGO /f F:\CudaCodeRepo\cuda_study\01_hello_world_from_gpu\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\CudaCodeRepo\cuda_study\01_hello_world_from_gpu\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\CudaCodeRepo\cuda_study\01_hello_world_from_gpu\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="01_hello_world_form_gpu/fast">
+				<Option output="F:/CudaCodeRepo/cuda_study/01_hello_world_from_gpu/cmake-build-debug/01_hello_world_form_gpu.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CudaCodeRepo/cuda_study/01_hello_world_from_gpu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f F:\CudaCodeRepo\cuda_study\01_hello_world_from_gpu\cmake-build-debug\Makefile VERBOSE=1 01_hello_world_form_gpu/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\CudaCodeRepo\cuda_study\01_hello_world_from_gpu\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\CudaCodeRepo\cuda_study\01_hello_world_from_gpu\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\CudaCodeRepo\cuda_study\01_hello_world_from_gpu\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="F:/CudaCodeRepo/cuda_study/01_hello_world_from_gpu/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f F:\CudaCodeRepo\cuda_study\01_hello_world_from_gpu\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f F:\CudaCodeRepo\cuda_study\01_hello_world_from_gpu\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\CudaCodeRepo\cuda_study\01_hello_world_from_gpu\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\CudaCodeRepo\cuda_study\01_hello_world_from_gpu\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="F:/CudaCodeRepo/cuda_study/01_hello_world_from_gpu/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f F:\CudaCodeRepo\cuda_study\01_hello_world_from_gpu\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f F:\CudaCodeRepo\cuda_study\01_hello_world_from_gpu\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\CudaCodeRepo\cuda_study\01_hello_world_from_gpu\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\CudaCodeRepo\cuda_study\01_hello_world_from_gpu\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="F:/CudaCodeRepo/cuda_study/01_hello_world_from_gpu/main.cu">
+			<Option target="01_hello_world_form_gpu"/>
+		</Unit>
+		<Unit filename="F:/CudaCodeRepo/cuda_study/01_hello_world_from_gpu/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
